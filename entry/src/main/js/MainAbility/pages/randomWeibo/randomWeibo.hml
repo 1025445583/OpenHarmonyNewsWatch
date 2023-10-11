@@ -1,0 +1,12 @@
+<div class="box">
+    <div class="news-topic"><text>状态：{{status}}</text></div>
+    <div class="news-container">
+        <list class="todo-wrapper" scrollbar="on">
+            <list-item for="{{(index,value) in todolist}}"  data-index="{{index}}" class="todo-item" @click="handleListItem" >
+                <div  style="flex-direction: column;align-items: center;justify-content: center; ">
+                    <text class="todo-title">{{value}}</text>
+                </div>
+            </list-item>
+        </list>
+    </div>
+</div>

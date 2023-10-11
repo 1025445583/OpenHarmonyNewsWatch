@@ -1,0 +1,17 @@
+<div class="container">
+    <div >
+        <text class="text_raw">{{content.text_raw}}</text>
+    </div>
+    <div >
+        <text class="user">{{content.user}}</text>
+    </div>
+    <div class="news-container">
+        <list class="todo-wrapper" scrollbar="on">
+            <list-item for="{{(index,value) in content.data}}"  data-index="{{index}}" class="todo-item" >
+                <div  style="flex-direction: column;align-items: center;justify-content: center; ">
+                    <image class="images" src="{{value}}"></image>
+                </div>
+            </list-item>
+        </list>
+    </div>
+</div>

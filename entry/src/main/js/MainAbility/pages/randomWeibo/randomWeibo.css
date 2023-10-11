@@ -1,0 +1,34 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.news-topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+.news-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.todo-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.todo-item {
+    width: 100%;
+    height: 120px;
+    justify-content:center;
+    margin: 20px;
+}
+.todo-title {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}

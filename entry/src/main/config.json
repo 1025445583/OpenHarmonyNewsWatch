@@ -1,0 +1,85 @@
+{
+  "app": {
+    "vendor": "example",
+    "bundleName": "com.guxh.zhihunews",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
+  },
+  "module": {
+    "mainAbility": ".MainAbility",
+    "deviceType": [
+      "phone",
+      "wearable"
+    ],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "srcPath": "MainAbility",
+        "name": ".MainAbility",
+        "srcLanguage": "js",
+        "icon": "$media:icon",
+        "description": "$string:MainAbility_desc",
+        "formsEnabled": false,
+        "label": "$string:MainAbility_label",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "distro": {
+      "moduleType": "entry",
+      "installationFree": false,
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.guxh.zhihunews",
+    "name": ".entry",
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/topicstory/topicstory",
+          "pages/newsdetail/newsdetail",
+          "pages/randomWeibo/randomWeibo",
+          "pages/WhiteBlack/WhiteBlack",
+          "pages/randomPic/randomPic",
+          "pages/randomComic/randomComic",
+          "pages/randomBeauty/randomBeauty",
+          "pages/localNews/localNews",
+          "pages/localNewsList/localNewsList",
+          "pages/moreNews/moreNews"
+        ],
+        "name": ".MainAbility",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": false
+        }
+      }
+    ],
+    "reqPermissions": [
+      {
+        "reason": "",
+        "name": "ohos.permission.INTERNET"
+      }
+    ]
+  }
+}

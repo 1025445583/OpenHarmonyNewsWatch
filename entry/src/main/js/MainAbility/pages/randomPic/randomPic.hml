@@ -1,0 +1,11 @@
+<div class="box">
+    <div class="router-d">
+        <button class="router-btn" value="白丝黑丝" @click="handleWhiteBlack"></button>
+    </div>
+    <div class="router-d">
+        <button class="router-btn" value="二次元图" @click="handleComic"></button>
+    </div>
+    <div class="router-d">
+        <button class="router-btn" value="妹子图" @click="handleBeauty"></button>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="white">
+        <image  class="images" src="{{white}}"></image>
+    </div>
+    <div class="black">
+        <image  class="images" src="{{black}}"></image>
+    </div>
+</div>

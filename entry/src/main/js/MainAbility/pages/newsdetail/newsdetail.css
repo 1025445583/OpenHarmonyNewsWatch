@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.text_raw {
+    font-size: 20fp;
+    text-align: center;
+    width: 90%;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-overflow:ellipsis;
+    max-lines: 5;
+}
+.user {
+    font-size: 15fp;
+    text-align:center;
+    margin-top: 10px;
+    padding-right: 50px;
+    width: 100%;
+    height: 100px;
+    text-align: right;
+}
+.images {
+    margin: 15px 0 15px 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.news-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.todo-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.todo-item {
+    width: 100%;
+    height: 500px;
+    justify-content:center;
+    margin: 20px;
+}
+.todo-title {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}

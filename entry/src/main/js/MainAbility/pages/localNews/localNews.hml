@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="title">
+        <text>当前：{{province}}省{{city}}市</text>
+    </div>
+    <div class="input-area">
+        <div class="input-item">
+            <div class="color">
+                <text class="input-title">省份</text>
+                <input class="input" type="text" placeholder="请输入省份" @change="handleProvince"></input>
+            </div>
+        </div>
+        <div class="input-item">
+            <div class="color">
+                <text class="input-title">城市</text>
+                <input class="input" type="text" placeholder="请输入城市" @change="handleCity"></input>
+            </div>
+        </div>
+    </div>
+    <button class="search-btn" @click="handleSearch">查看当地新闻</button>
+</div>

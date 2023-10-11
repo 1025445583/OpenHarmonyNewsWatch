@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\10254\\.ohos\\config\\auto_debug_zhihunews_com.guxh.zhihunews_80086000305338477.cer",
+          "storePassword": "0000001A7C4974C666836D062A03245B1BE3221FCD28CBB8180FF13736857DD5F47247F3090FFCAA034F",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A22A463BEDEBEA2EEDCCE82B5C52F967585380C48553A6DCEF497CBBB7E1F425A8700ED9AE2EC",
+          "profile": "C:\\Users\\10254\\.ohos\\config\\auto_debug_zhihunews_com.guxh.zhihunews_80086000305338477.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\10254\\.ohos\\config\\auto_debug_zhihunews_com.guxh.zhihunews_80086000305338477.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 8,
+    "compatibleSdkVersion": 8,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

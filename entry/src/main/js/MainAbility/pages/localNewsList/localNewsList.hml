@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="top">
+        <text class="title">{{ search_text }} </text>
+        <text class="page">页数：{{page}}</text>
+    </div>
+    <div class="center">
+        <button value="上一页" @click="pre" type="circle" style="margin-right: 20px;"></button>
+        <button value="下一页" @click="next" type="circle" style="margin-left: 20px;"></button>
+    </div>
+    <div class="items">
+        <div  class="item-detail">
+            <text style="padding-right: 20px;">{{content[0].source}}</text>
+            <text style="text-align: right;">{{content[0].ptime}}</text>
+        </div>
+        <image class="image" src="{{content[0].imgsrc}}"></image>
+        <div class ="news-detail">
+            <text>{{content[0].title}}</text>
+        </div>
+    </div>
+    <button value="查看更多" style="width: 200px;height: 100px;" @click="moreInfo"></button>
+</div>

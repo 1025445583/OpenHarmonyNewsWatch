@@ -1,0 +1,14 @@
+<div class="box">
+    <div class="router-d">
+        <button class="router-btn" value="微博热搜" @click="handleStory"></button>
+    </div>
+    <div class="router-d">
+        <button class="router-btn" value="随机微博" @click="handleRandomWeibo"></button>
+    </div>
+    <div class="router-d">
+        <button class="router-btn" value="随机图片" @click="handleRandomPic"></button>
+    </div>
+    <div class="router-d">
+        <button class="router-btn" value="本地新闻" @click="handleLocalNews"></button>
+    </div>
+</div>

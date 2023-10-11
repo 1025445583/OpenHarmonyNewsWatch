@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="news-container">
+        <list class="todo-wrapper" scrollbar="on">
+            <list-item for="{{(index,value) in newsList}}"  data-index="{{index}}" class="todo-item" @click="handleListItem" >
+                <div  class="news-detail">
+                    <text class="todo-title">{{value.title}}</text>
+                    <text class="todo-time">{{value.time}}</text>
+                    <text class="todo-abstract">{{value.abstract}}</text>
+                </div>
+            </list-item>
+        </list>
+    </div>
+</div>
